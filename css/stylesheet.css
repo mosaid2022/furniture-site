@@ -449,6 +449,75 @@ font-size: large;
     margin-top: 10px;
 }
 /* Footer........................................................ */
-
-
-
+.footer{
+    width: auto;
+    height: 190px;
+    background-color: #c9bebe;
+    text-align: center;
+  }
+  .footer img{
+    margin-right: 30px;
+    padding-left: 20px;
+  }
+  .footer-pic{
+    height: auto;
+    width: auto;
+    justify-content: space-evenly;
+  }
+  .footer-list{
+    list-style: none;
+    margin: 60px 400;
+  }
+  
+  .footer-list li{
+    z-index: 1;
+    display: inline-block;
+    width:50px;
+    height: 50px;
+    position: relative;
+    margin-left: 19px;
+    margin-bottom: 25px;
+  }
+  .footer-list i{
+    padding-bottom: -20px;
+    color: white;
+    width: auto;
+    height: auto;
+    font-size: 25px;
+  }
+  .footer-list li::after{
+    position: absolute;
+    content: "";
+    opacity: 0;
+    z-index: -1;
+    transition: .1s;
+    background-color: #6195ff;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .footer-list a{
+    display: block;
+    width:100%;
+    height: 100%;
+    color:#6195ff;
+    color: #fff;
+    line-height: 50px;
+    padding-top: 15px;
+  padding-left: 7px;
+    font-size: 25px;
+  
+  }
+  .footer p{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    text-align: center;
+  }
